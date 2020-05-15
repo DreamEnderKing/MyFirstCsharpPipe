@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace FCsarp
 {
@@ -7,6 +8,10 @@ namespace FCsarp
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            if(!File.Exists("log.txt")) File.Create("log.txt");
+            FileStream stream = new FileStream("log.txt", FileMode.Append);
+            Console.SetOut(new StreamWriter(stream));
+            Console.WriteLine("hello world!");
         }
     }
 }
