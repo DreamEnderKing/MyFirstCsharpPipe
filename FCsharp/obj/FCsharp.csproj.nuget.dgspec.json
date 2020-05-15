@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Temp\\Solution\\MyGithubExp\\MyFirstCsharpPipe\\FCsharp\\FCsarp.csproj": {}
+    "D:\\Temp\\Solution\\MyGithubExp\\MyFirstCsharpPipe\\FCsharp\\FCsharp.csproj": {}
   },
   "projects": {
-    "D:\\Temp\\Solution\\MyGithubExp\\MyFirstCsharpPipe\\FCsharp\\FCsarp.csproj": {
+    "D:\\Temp\\Solution\\MyGithubExp\\MyFirstCsharpPipe\\FCsharp\\FCsharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Temp\\Solution\\MyGithubExp\\MyFirstCsharpPipe\\FCsharp\\FCsarp.csproj",
-        "projectName": "FCsarp",
-        "projectPath": "D:\\Temp\\Solution\\MyGithubExp\\MyFirstCsharpPipe\\FCsharp\\FCsarp.csproj",
+        "projectUniqueName": "D:\\Temp\\Solution\\MyGithubExp\\MyFirstCsharpPipe\\FCsharp\\FCsharp.csproj",
+        "projectName": "FCsharp",
+        "projectPath": "D:\\Temp\\Solution\\MyGithubExp\\MyFirstCsharpPipe\\FCsharp\\FCsharp.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
         "outputPath": "D:\\Temp\\Solution\\MyGithubExp\\MyFirstCsharpPipe\\FCsharp\\obj\\",
         "projectStyle": "PackageReference",

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Temp\\Solution\\MyGithubExp\\MyFirstCsharpPipe\\FCsarp\\FCsarp.csproj",
-      "projectName": "FCsarp",
-      "projectPath": "D:\\Temp\\Solution\\MyGithubExp\\MyFirstCsharpPipe\\FCsarp\\FCsarp.csproj",
+      "projectUniqueName": "D:\\Temp\\Solution\\MyGithubExp\\MyFirstCsharpPipe\\FCsharp\\FCsharp.csproj",
+      "projectName": "FCsharp",
+      "projectPath": "D:\\Temp\\Solution\\MyGithubExp\\MyFirstCsharpPipe\\FCsharp\\FCsharp.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\Temp\\Solution\\MyGithubExp\\MyFirstCsharpPipe\\FCsarp\\obj\\",
+      "outputPath": "D:\\Temp\\Solution\\MyGithubExp\\MyFirstCsharpPipe\\FCsharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"

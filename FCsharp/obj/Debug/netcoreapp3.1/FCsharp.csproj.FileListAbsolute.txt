@@ -1,0 +1,13 @@
+D:\Temp\Solution\MyGithubExp\MyFirstCsharpPipe\FCsharp\bin\Debug\netcoreapp3.1\FCsharp.exe
+D:\Temp\Solution\MyGithubExp\MyFirstCsharpPipe\FCsharp\bin\Debug\netcoreapp3.1\FCsharp.deps.json
+D:\Temp\Solution\MyGithubExp\MyFirstCsharpPipe\FCsharp\bin\Debug\netcoreapp3.1\FCsharp.runtimeconfig.json
+D:\Temp\Solution\MyGithubExp\MyFirstCsharpPipe\FCsharp\bin\Debug\netcoreapp3.1\FCsharp.runtimeconfig.dev.json
+D:\Temp\Solution\MyGithubExp\MyFirstCsharpPipe\FCsharp\bin\Debug\netcoreapp3.1\FCsharp.dll
+D:\Temp\Solution\MyGithubExp\MyFirstCsharpPipe\FCsharp\bin\Debug\netcoreapp3.1\FCsharp.pdb
+D:\Temp\Solution\MyGithubExp\MyFirstCsharpPipe\FCsharp\obj\Debug\netcoreapp3.1\FCsharp.csprojAssemblyReference.cache
+D:\Temp\Solution\MyGithubExp\MyFirstCsharpPipe\FCsharp\obj\Debug\netcoreapp3.1\FCsharp.csproj.CoreCompileInputs.cache
+D:\Temp\Solution\MyGithubExp\MyFirstCsharpPipe\FCsharp\obj\Debug\netcoreapp3.1\FCsharp.AssemblyInfoInputs.cache
+D:\Temp\Solution\MyGithubExp\MyFirstCsharpPipe\FCsharp\obj\Debug\netcoreapp3.1\FCsharp.AssemblyInfo.cs
+D:\Temp\Solution\MyGithubExp\MyFirstCsharpPipe\FCsharp\obj\Debug\netcoreapp3.1\FCsharp.dll
+D:\Temp\Solution\MyGithubExp\MyFirstCsharpPipe\FCsharp\obj\Debug\netcoreapp3.1\FCsharp.pdb
+D:\Temp\Solution\MyGithubExp\MyFirstCsharpPipe\FCsharp\obj\Debug\netcoreapp3.1\FCsharp.genruntimeconfig.cache
