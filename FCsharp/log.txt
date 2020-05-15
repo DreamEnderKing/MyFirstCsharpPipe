@@ -1,3 +1,11 @@
 hello,world!
 hello,world!
 hello,world!
+[Information:2020/5/15 21:42:43]
+info msg!
+[Information:2020/5/15 21:46:28]
+info msg!
+[Warning:2020/5/15 21:46:28]
+warning msg!
+[Error:2020/5/15 21:46:28]
+Attempted to divide by zero.

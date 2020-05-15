@@ -2,31 +2,77 @@
 using System.IO;
 using System.Text;
 
-namespace FCsarp
+namespace FCsharp
 {
+    public enum loggerType
+    {
+        ErrorMsg,
+        WarningMsg,
+        InfoMsg
+    }
+    class logger
+    {
+        public logger(string filepath)
+        {
+            if(!File.Exists("log.txt")) File.Create("log.txt");
+            _stream = new FileStream("log.txt", FileMode.Append, FileAccess.Write, FileShare.ReadWrite);
+            _writer = new StreamWriter(_stream);
+            
+        }
+        private Stream _stream;
+        private StreamWriter _writer;
+        public void Write(object o,loggerType lt)
+        {
+            switch (lt) {
+                case loggerType.ErrorMsg:
+                    _writer.WriteLine("[Error:{0}]", DateTime.Now.ToString());
+                    break;
+                case loggerType.WarningMsg:
+                    _writer.WriteLine("[Warning:{0}]", DateTime.Now.ToString());
+                    break;
+                case loggerType.InfoMsg:
+                    _writer.WriteLine("[Information:{0}]", DateTime.Now.ToString());
+                    break;
+                default:
+                    throw new Exception("Invalid value for loggerType");
+            }
+            _writer.WriteLine(o);
+            _writer.Flush();
+        }
+        public void Write(object o)
+        {
+            Write(o, loggerType.InfoMsg);
+        }
+        public void Dispose()
+        {
+            _writer.Dispose();
+            _stream.Dispose();
+        }
+    }
+    
     class Program
     {
-        static FileStream stream;
+        public static logger log = new logger("log.txt");
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
             try {
-                if(!File.Exists("log.txt")) File.Create("log.txt");
-                stream = new FileStream("log.txt", FileMode.Append, FileAccess.Write, FileShare.ReadWrite);
-                StreamWriter _writer = new StreamWriter(stream);
-                _writer.WriteLine("hello,world!");
-                _writer.Flush();
-                _writer.Dispose();
-                
+                log.Write("info msg!");
+                log.Write("warning msg!",loggerType.WarningMsg);
+                //zero divided
+                int c = 24 - 4 * 6;
+                int i = 12 / c;
             } 
             catch(Exception e){
-                Console.ForegroundColor = ConsoleColor.Magenta;
-                Console.WriteLine("error!\nMessage:{0}", e.Message);
+                log.Write(e.Message, loggerType.ErrorMsg);
             }
             finally {
-                stream.Dispose();
                 Console.ForegroundColor = ConsoleColor.White;
             }
+        }
+            
+        ~Program()
+        {
+            log.Dispose();
         }
     }
 }
