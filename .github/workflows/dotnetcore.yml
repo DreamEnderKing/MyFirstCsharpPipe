@@ -26,4 +26,4 @@ jobs:
     - name: Test
       run: dotnet test FCsharp --no-restore --verbosity normal
     - name: Post
-      run: github push
+      run: git push
