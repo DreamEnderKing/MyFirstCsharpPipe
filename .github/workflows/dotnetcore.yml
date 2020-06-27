@@ -17,6 +17,8 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 3.1.101
+    - name: Try github service
+      run: git init
     - name: Install dependencies
       run: dotnet restore FCsharp
     - name: Build
