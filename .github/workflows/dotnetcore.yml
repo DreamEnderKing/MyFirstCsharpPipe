@@ -18,10 +18,7 @@ jobs:
       with:
         dotnet-version: 3.1.101
     - name: Try dotnet service
-      run: dotnet new console -n console1 -o console1
-      run: cd console1
-      run: git init && git remote add origin https://github.com/DreamEnderKing/PipeCon1.git
-      run: git push -f && cd ../
+      run: dotnet new console -n console1 -o console1 && cd console1 && git init && git remote add origin https://github.com/DreamEnderKing/PipeCon1.git && git push -f && cd ../
     - name: Install dependencies
       run: dotnet restore FCsharp
     - name: Build
