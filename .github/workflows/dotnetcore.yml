@@ -17,6 +17,9 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 3.1.101
+    - name: Git configure
+      run: git config --global user.email "www20040718@163.com"
+        && git config --global user.name "DreamEnderKing"
     - name: Try dotnet service
       run: dotnet new console -n console1 -o console1 && cd console1 && git init && git remote add origin https://github.com/DreamEnderKing/PipeCon1.git && git commit -a -m "Update" && git push --set-upstream origin master && cd ../
     - name: Install dependencies
