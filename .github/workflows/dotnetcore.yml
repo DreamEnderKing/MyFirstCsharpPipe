@@ -24,4 +24,4 @@ jobs:
     - name: Build
       run: dotnet build FCsharp --configuration Release --no-restore
     - name: Test
-      run: dotnet test FCsharp --no-restore --verbosity normal
+      run: dotnet run
