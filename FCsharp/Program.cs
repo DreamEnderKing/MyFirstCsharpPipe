@@ -55,6 +55,7 @@ namespace FCsharp
         public static logger log = new logger("log.txt");
         static void Main(string[] args)
         {
+            Console. WriteLine("Hello world");
             try {
                 log.Write("info msg!");
                 log.Write("warning msg!",loggerType.WarningMsg);
