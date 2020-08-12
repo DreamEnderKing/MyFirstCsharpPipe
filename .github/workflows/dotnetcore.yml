@@ -18,7 +18,7 @@ jobs:
       with:
         dotnet-version: 3.1.101
       env:
-        access_token: secure: efdb6c1dff2024e6c7f4386fdd7a3b7d7ea48a63
+        access_token: efdb6c1dff2024e6c7f4386fdd7a3b7d7ea48a63
     - name: Git configure
       run: git config --global credential.helper
         && Add-Content -Path "$HOME\.git-credentials" -Value "https://$($env:access_token):x-oauth-basic@github.com`n" -NoNewline
